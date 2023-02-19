@@ -1,0 +1,67 @@
+body{
+	margin:0;
+	padding:0;
+	background:url("https://policyholder.naswassurance.org/wp-content/uploads/2020/09/perils-of-cyber-liability.jpg");
+	background-size:cover;
+	background-position:center;
+	font-family:sans-serif;
+}
+
+.regbox{
+	width:820px;
+	height:620px;
+	background:#B2BEB5;
+	color:#000;
+	top: 50%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%, -50%);
+	box-sizing:border-box;
+	padding: 70px 30px;
+}
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+.regbox p {
+	margin: 0;
+	padding: 0;
+	font-weight:bold;
+	margin-bottom: 16px;
+}
+
+.regbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.regbox input[type="text"], input[type="password"]
+{
+
+	border:none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height:60 px;
+	font-size:18px;
+}
+	
+.regbox input[type="submit"]
+{
+	border:none;
+	outline:none;
+	height: 40px;
+	background: #ffc107;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.regbox input[type="submit"]:hover
+{
+
+	cursor: pointer;
+	background: #000;
+}
